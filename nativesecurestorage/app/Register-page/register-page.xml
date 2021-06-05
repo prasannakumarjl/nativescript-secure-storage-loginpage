@@ -1,0 +1,19 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded = "registerpageLoaded">-+++++++++++++
+    <page.actionBar>>
+        <ActionBar title="Secure-Storage" icon="" class="actionbar" 
+        />
+    </page.actionBar>
+    <FlexboxLayout class = "page" >
+        <StackLayout class="form">
+            <Label text="Register" textWrap="true" class="header"/>
+            <StackLayout class="input-field">
+                <TextField class = "input" id = "usernametfreg" hint="Username" />
+            </StackLayout>
+            <StackLayout class="input-field" >
+                <TextField class = "input" id = "passwordtfreg" secure ="true" hint="Password" />            
+            </StackLayout>
+            <Button text="Sign In" id = "registerbtn" tap="submit" class="btn btn-primary" />       
+        </StackLayout>
+    </FlexboxLayout>
+</Page>

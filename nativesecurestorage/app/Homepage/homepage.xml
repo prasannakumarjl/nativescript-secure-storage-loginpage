@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded = "homepageLoaded">
+    <page.actionBar>>
+        <ActionBar title="Home" icon="" class="actionbar" 
+             textstyle = "bold" 
+        />
+    </page.actionBar>    
+    <StackLayout class="page"  >
+        <Label id = "welcometext" class="welcometxt" text="Welcome Home" textAlignment="center"></Label>
+    </StackLayout>
+    
+</Page>

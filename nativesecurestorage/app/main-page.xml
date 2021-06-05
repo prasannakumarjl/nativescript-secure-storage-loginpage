@@ -1,0 +1,22 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded = "pageLoaded">-+++++++++++++
+    <page.actionBar>>
+        <ActionBar title="Secure-Storage" icon="" class="actionbar" 
+        />
+    </page.actionBar>
+    <FlexboxLayout class = "page" >
+        <StackLayout class="form">
+            <Label text="Login" textWrap="true" class="header"/>
+            <StackLayout class="input-field">
+                <TextField class = "input" id = "usernametf" hint="Username" />
+            </StackLayout>
+            <StackLayout class="input-field" >
+                <TextField class = "input" id = "passwordtf" secure ="true" hint="Password" />            
+            </StackLayout>
+            <Button text="Sign In" id = "loginbtn" tap="submit" class="btn btn-primary" />
+            <StackLayout class="newusr">
+                <Label id = "newusr" class="newuser" text="New user ?" textAlignment="right" tap="newuser"></Label>
+            </StackLayout>       
+        </StackLayout>
+    </FlexboxLayout>
+</Page>

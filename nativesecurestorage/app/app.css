@@ -1,0 +1,80 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. You can learn more about the
+NativeScript core theme at https://github.com/nativescript/theme
+The imported CSS rules must precede all other types of rules.
+*/
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+/* Place any CSS rules you want to apply on both iOS and Android here.
+This is where the vast majority of your CSS code goes. */
+
+/*
+The following CSS rule changes the font size of all Buttons that have the
+"-primary" class modifier.
+*/
+Button.-primary {
+  font-size: 18;
+}
+.actionbar{
+  color: black;
+  background-color: mediumaquamarine;
+  height: auto;
+  background-blend-mode: hue;
+}
+.btn-primary {
+  margin: 15;
+  background-color: mediumaquamarine;
+  color: black;
+  border-color: black;
+  border: 1;
+  border-radius: 1;
+  font-size: 20dp;
+  background-blend-mode: hue;
+  
+}
+.centerstack{
+  vertical-align: middle;
+  color: mediumaquamarine;
+  
+
+}
+.page {
+  margin-top: 10;
+  margin-left: 20;
+  margin-right: 20;
+  margin-bottom: 10;
+  align-items: center;
+}
+.form {
+  margin-left: 30;
+  margin-right: 30;
+}
+
+.header {
+  
+  font-size: 30;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+  margin-bottom: 30;
+}
+.input-field {
+  
+  width: 100%;
+  margin-bottom: 20;
+  align-items: stretch;
+}
+
+.input {
+  padding: 2dp;
+  box-sizing: border-box;
+  font-size: 20;
+}
